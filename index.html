@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Trang Web</title>
+
+
+  <style>
+    * {
+        margin: 0;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+
+        background: pink;
+    }
+
+    .subMenu {
+        display: flex;
+        gap: 16px;
+    }
+
+    .content {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .content-top {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .item-left {
+        border: 1px solid red;
+        border-radius: 12px;
+
+        padding: 12px;
+    }
+
+    .text-red {
+        color: red;
+    }
+    
+    img {
+        border-radius: 50%;
+    }
+
+
+    .text-style {
+        font-size: 12px;
+    }
+
+    .content-bottom {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        background: pink;
+    }
+
+    .text-large {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .text-small {
+        font-size: 12px;
+    }
+  </style>  
+</head>
+<body>
+
+    <!-- // header -->
+    <div class="header">
+        <div>
+        <p>Logo</p>
+        </div>
+
+        <div class="subMenu">
+            <p><a href="#">Trang chủ</a></p>
+            <p><a href="#">Giới thiệu</a></p>
+            <p><a href="#">Liên hệ</a></p>
+        </div>
+    </div>
+
+    <!-- // Nội dung -->
+     <div class="content">
+        <div class="content-top">
+            <div class="item-left">
+                <p class="text-red">3 bước đơn giản cùng Go2Joy3 bước đơn giản cùng Go2Joy</p>
+                
+                <p>1. Đăng ký</p>
+                <p>2. Chọn giải đấu và tập luyện</p>
+                <p>3. Nhận thưởng</p>
+            </div>
+            <div>
+                <img src="./running.png" width="200px" />
+            </div>
+        </div>
+
+        <div>
+            Tất cả giải đấu
+
+        
+            <div class="content-bottom">
+                <div class="card">
+                    <div>
+                        <img src="./run_1.png" width="150px" />
+                    </div>
+                    <div>
+                        <p class="text-style">Bước chân di sản - Vietnam Heritage Stride</p>
+                        <p class="text-style">Đăng ký: 06/08/2025</p>
+                        <p class="text-style">SL tham gia: 300</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <img src="./run_2.png" width="150px" />
+                    </div>
+                    <div>
+                        <p class="text-style">2 Bước chân di sản - Vietnam Heritage Stride</p>
+                        <p class="text-style">Đăng ký: 06/08/2025</p>
+                        <p class="text-style">SL tham gia: 300</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <img src="./run_1.png" width="150px" />
+                    </div>
+                    <div>
+                        <p class="text-style">Bước chân di sản - Vietnam Heritage Stride</p>
+                        <p class="text-style">Đăng ký: 06/08/2025</p>
+                        <p class="text-style">SL tham gia: 300</p>
+                    </div>
+                </div>
+            </div>
+
+             <div class="content-bottom">
+                <div class="card">
+                    <div>
+                        <img src="./run_1.png" width="150px" />
+                    </div>
+                    <div>
+                        <p class="text-style">Bước chân di sản - Vietnam Heritage Stride</p>
+                        <p class="text-style">Đăng ký: 06/08/2025</p>
+                        <p class="text-style">SL tham gia: 300</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <img src="./run_1.png" width="150px" />
+                    </div>
+                    <div>
+                        <p class="text-style">Bước chân di sản - Vietnam Heritage Stride</p>
+                        <p class="text-style">Đăng ký: 06/08/2025</p>
+                        <p class="text-style">SL tham gia: 300</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <img src="./run_1.png" width="150px" />
+                    </div>
+                    <div>
+                        <p class="text-style">Bước chân di sản - Vietnam Heritage Stride</p>
+                        <p class="text-style">Đăng ký: 06/08/2025</p>
+                        <p class="text-style">SL tham gia: 300</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- // Footer -->
+     <div class="footer">
+        <div>
+            <p class="text-large">Chạy bộ cùng Go2Joy</p>
+            <p class="text-small">CHẠM VÀO ĐƯỜNG ĐUA – KHƠI NGUỒN BỨT PHÁ</p>
+        </div>
+        <div>
+            <p class="text-large">Thông tin</p>
+            <p class="text-small">Câu hỏi thường gặp</p>
+            <p class="text-small">Chính sách bảo mật</p>
+        </div>
+        <div>
+            <p class="text-large">Liên hệ</p>
+            <p class="text-small">Liên hệ hỗ trợ/hợp tác</p>
+        </div>
+     </div>
+
+</body>
+</html>
+
+
